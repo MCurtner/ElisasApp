@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA3D07411B1F4D22006FCAFF /* food images in Resources */ = {isa = PBXBuildFile; fileRef = BA3D07401B1F4D22006FCAFF /* food images */; };
+		BA3D07431B1F4D53006FCAFF /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3D07421B1F4D53006FCAFF /* FoodViewController.swift */; };
+		BAA58A761B1E0A15005B6723 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA58A751B1E0A15005B6723 /* AppDelegate.swift */; };
+		BAA58A7B1B1E0A15005B6723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAA58A791B1E0A15005B6723 /* Main.storyboard */; };
+		BAA58A7D1B1E0A15005B6723 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAA58A7C1B1E0A15005B6723 /* Images.xcassets */; };
+		BAA58A801B1E0A15005B6723 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAA58A7E1B1E0A15005B6723 /* LaunchScreen.xib */; };
+		BAA58A8C1B1E0A15005B6723 /* Elisas_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA58A8B1B1E0A15005B6723 /* Elisas_AppTests.swift */; };
+		BAA58A991B1E0E23005B6723 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA58A981B1E0E23005B6723 /* MasterViewController.swift */; };
+		BAA58A9B1B1E1794005B6723 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA58A9A1B1E1794005B6723 /* ItemCell.swift */; };
+		BAA58A9F1B1E2E14005B6723 /* ClothingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA58A9E1B1E2E14005B6723 /* ClothingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAA58A861B1E0A15005B6723 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAA58A681B1E0A15005B6723 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAA58A6F1B1E0A15005B6723;
+			remoteInfo = "Elisas App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA3D07401B1F4D22006FCAFF /* food images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "food images"; sourceTree = "<group>"; };
+		BA3D07421B1F4D53006FCAFF /* FoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		BAA58A701B1E0A15005B6723 /* Elisas App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Elisas App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA58A741B1E0A15005B6723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAA58A751B1E0A15005B6723 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAA58A7A1B1E0A15005B6723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAA58A7C1B1E0A15005B6723 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BAA58A7F1B1E0A15005B6723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BAA58A851B1E0A15005B6723 /* Elisas AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Elisas AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA58A8A1B1E0A15005B6723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAA58A8B1B1E0A15005B6723 /* Elisas_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elisas_AppTests.swift; sourceTree = "<group>"; };
+		BAA58A981B1E0E23005B6723 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		BAA58A9A1B1E1794005B6723 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		BAA58A9E1B1E2E14005B6723 /* ClothingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClothingViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAA58A6D1B1E0A15005B6723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA58A821B1E0A15005B6723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAA58A671B1E0A15005B6723 = {
+			isa = PBXGroup;
+			children = (
+				BAA58A721B1E0A15005B6723 /* Elisas App */,
+				BAA58A881B1E0A15005B6723 /* Elisas AppTests */,
+				BAA58A711B1E0A15005B6723 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAA58A711B1E0A15005B6723 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAA58A701B1E0A15005B6723 /* Elisas App.app */,
+				BAA58A851B1E0A15005B6723 /* Elisas AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAA58A721B1E0A15005B6723 /* Elisas App */ = {
+			isa = PBXGroup;
+			children = (
+				BA3D07401B1F4D22006FCAFF /* food images */,
+				BAA58A751B1E0A15005B6723 /* AppDelegate.swift */,
+				BAA58A791B1E0A15005B6723 /* Main.storyboard */,
+				BAA58A7C1B1E0A15005B6723 /* Images.xcassets */,
+				BAA58A7E1B1E0A15005B6723 /* LaunchScreen.xib */,
+				BAA58A731B1E0A15005B6723 /* Supporting Files */,
+				BAA58A981B1E0E23005B6723 /* MasterViewController.swift */,
+				BAA58A9A1B1E1794005B6723 /* ItemCell.swift */,
+				BAA58A9E1B1E2E14005B6723 /* ClothingViewController.swift */,
+				BA3D07421B1F4D53006FCAFF /* FoodViewController.swift */,
+			);
+			path = "Elisas App";
+			sourceTree = "<group>";
+		};
+		BAA58A731B1E0A15005B6723 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAA58A741B1E0A15005B6723 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAA58A881B1E0A15005B6723 /* Elisas AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAA58A8B1B1E0A15005B6723 /* Elisas_AppTests.swift */,
+				BAA58A891B1E0A15005B6723 /* Supporting Files */,
+			);
+			path = "Elisas AppTests";
+			sourceTree = "<group>";
+		};
+		BAA58A891B1E0A15005B6723 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAA58A8A1B1E0A15005B6723 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAA58A6F1B1E0A15005B6723 /* Elisas App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA58A8F1B1E0A15005B6723 /* Build configuration list for PBXNativeTarget "Elisas App" */;
+			buildPhases = (
+				BAA58A6C1B1E0A15005B6723 /* Sources */,
+				BAA58A6D1B1E0A15005B6723 /* Frameworks */,
+				BAA58A6E1B1E0A15005B6723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Elisas App";
+			productName = "Elisas App";
+			productReference = BAA58A701B1E0A15005B6723 /* Elisas App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAA58A841B1E0A15005B6723 /* Elisas AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA58A921B1E0A15005B6723 /* Build configuration list for PBXNativeTarget "Elisas AppTests" */;
+			buildPhases = (
+				BAA58A811B1E0A15005B6723 /* Sources */,
+				BAA58A821B1E0A15005B6723 /* Frameworks */,
+				BAA58A831B1E0A15005B6723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAA58A871B1E0A15005B6723 /* PBXTargetDependency */,
+			);
+			name = "Elisas AppTests";
+			productName = "Elisas AppTests";
+			productReference = BAA58A851B1E0A15005B6723 /* Elisas AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAA58A681B1E0A15005B6723 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Matthew Curtner";
+				TargetAttributes = {
+					BAA58A6F1B1E0A15005B6723 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = M77G4VQ69B;
+					};
+					BAA58A841B1E0A15005B6723 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = BAA58A6F1B1E0A15005B6723;
+					};
+				};
+			};
+			buildConfigurationList = BAA58A6B1B1E0A15005B6723 /* Build configuration list for PBXProject "Elisas App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAA58A671B1E0A15005B6723;
+			productRefGroup = BAA58A711B1E0A15005B6723 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAA58A6F1B1E0A15005B6723 /* Elisas App */,
+				BAA58A841B1E0A15005B6723 /* Elisas AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAA58A6E1B1E0A15005B6723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA58A7B1B1E0A15005B6723 /* Main.storyboard in Resources */,
+				BA3D07411B1F4D22006FCAFF /* food images in Resources */,
+				BAA58A801B1E0A15005B6723 /* LaunchScreen.xib in Resources */,
+				BAA58A7D1B1E0A15005B6723 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA58A831B1E0A15005B6723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAA58A6C1B1E0A15005B6723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA58A9B1B1E1794005B6723 /* ItemCell.swift in Sources */,
+				BA3D07431B1F4D53006FCAFF /* FoodViewController.swift in Sources */,
+				BAA58A761B1E0A15005B6723 /* AppDelegate.swift in Sources */,
+				BAA58A9F1B1E2E14005B6723 /* ClothingViewController.swift in Sources */,
+				BAA58A991B1E0E23005B6723 /* MasterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA58A811B1E0A15005B6723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA58A8C1B1E0A15005B6723 /* Elisas_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAA58A871B1E0A15005B6723 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAA58A6F1B1E0A15005B6723 /* Elisas App */;
+			targetProxy = BAA58A861B1E0A15005B6723 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAA58A791B1E0A15005B6723 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAA58A7A1B1E0A15005B6723 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAA58A7E1B1E0A15005B6723 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAA58A7F1B1E0A15005B6723 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAA58A8D1B1E0A15005B6723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAA58A8E1B1E0A15005B6723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAA58A901B1E0A15005B6723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Elisas App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BAA58A911B1E0A15005B6723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Elisas App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BAA58A931B1E0A15005B6723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Elisas AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elisas App.app/Elisas App";
+			};
+			name = Debug;
+		};
+		BAA58A941B1E0A15005B6723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Elisas AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elisas App.app/Elisas App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAA58A6B1B1E0A15005B6723 /* Build configuration list for PBXProject "Elisas App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA58A8D1B1E0A15005B6723 /* Debug */,
+				BAA58A8E1B1E0A15005B6723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAA58A8F1B1E0A15005B6723 /* Build configuration list for PBXNativeTarget "Elisas App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA58A901B1E0A15005B6723 /* Debug */,
+				BAA58A911B1E0A15005B6723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAA58A921B1E0A15005B6723 /* Build configuration list for PBXNativeTarget "Elisas AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA58A931B1E0A15005B6723 /* Debug */,
+				BAA58A941B1E0A15005B6723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAA58A681B1E0A15005B6723 /* Project object */;
+}
