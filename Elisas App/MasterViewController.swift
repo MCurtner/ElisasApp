@@ -28,8 +28,6 @@ class MasterViewController: UICollectionViewController {
         layout.itemSize = CGSize(width: width, height: width)
         
         imagesArray = ["shirt","house","hamburger"]
-        
-        
     }
     
     // MARK: - UICollectionViewDataSource
@@ -43,6 +41,7 @@ class MasterViewController: UICollectionViewController {
     
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> ItemCell {
         
+        //Assign reuseIdentifer based on indexPath item number
         var reuseIdentifier:String?
         
         if indexPath.item == 0 {

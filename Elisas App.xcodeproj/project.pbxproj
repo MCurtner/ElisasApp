@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA3D07411B1F4D22006FCAFF /* food images in Resources */ = {isa = PBXBuildFile; fileRef = BA3D07401B1F4D22006FCAFF /* food images */; };
+		343BE8BC1B20BD6D00897221 /* LoadArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BE8BB1B20BD6D00897221 /* LoadArray.swift */; };
 		BA3D07431B1F4D53006FCAFF /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3D07421B1F4D53006FCAFF /* FoodViewController.swift */; };
 		BAA58A761B1E0A15005B6723 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA58A751B1E0A15005B6723 /* AppDelegate.swift */; };
 		BAA58A7B1B1E0A15005B6723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAA58A791B1E0A15005B6723 /* Main.storyboard */; };
@@ -30,7 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BA3D07401B1F4D22006FCAFF /* food images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "food images"; sourceTree = "<group>"; };
+		343BE8BB1B20BD6D00897221 /* LoadArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadArray.swift; sourceTree = "<group>"; };
 		BA3D07421B1F4D53006FCAFF /* FoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 		BAA58A701B1E0A15005B6723 /* Elisas App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Elisas App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA58A741B1E0A15005B6723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,16 +85,16 @@
 		BAA58A721B1E0A15005B6723 /* Elisas App */ = {
 			isa = PBXGroup;
 			children = (
-				BA3D07401B1F4D22006FCAFF /* food images */,
 				BAA58A751B1E0A15005B6723 /* AppDelegate.swift */,
+				BAA58A981B1E0E23005B6723 /* MasterViewController.swift */,
+				BAA58A9A1B1E1794005B6723 /* ItemCell.swift */,
 				BAA58A791B1E0A15005B6723 /* Main.storyboard */,
 				BAA58A7C1B1E0A15005B6723 /* Images.xcassets */,
 				BAA58A7E1B1E0A15005B6723 /* LaunchScreen.xib */,
 				BAA58A731B1E0A15005B6723 /* Supporting Files */,
-				BAA58A981B1E0E23005B6723 /* MasterViewController.swift */,
-				BAA58A9A1B1E1794005B6723 /* ItemCell.swift */,
 				BAA58A9E1B1E2E14005B6723 /* ClothingViewController.swift */,
 				BA3D07421B1F4D53006FCAFF /* FoodViewController.swift */,
+				343BE8BB1B20BD6D00897221 /* LoadArray.swift */,
 			);
 			path = "Elisas App";
 			sourceTree = "<group>";
@@ -206,7 +206,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAA58A7B1B1E0A15005B6723 /* Main.storyboard in Resources */,
-				BA3D07411B1F4D22006FCAFF /* food images in Resources */,
 				BAA58A801B1E0A15005B6723 /* LaunchScreen.xib in Resources */,
 				BAA58A7D1B1E0A15005B6723 /* Images.xcassets in Resources */,
 			);
@@ -229,6 +228,7 @@
 				BAA58A9B1B1E1794005B6723 /* ItemCell.swift in Sources */,
 				BA3D07431B1F4D53006FCAFF /* FoodViewController.swift in Sources */,
 				BAA58A761B1E0A15005B6723 /* AppDelegate.swift in Sources */,
+				343BE8BC1B20BD6D00897221 /* LoadArray.swift in Sources */,
 				BAA58A9F1B1E2E14005B6723 /* ClothingViewController.swift in Sources */,
 				BAA58A991B1E0E23005B6723 /* MasterViewController.swift in Sources */,
 			);

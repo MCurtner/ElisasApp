@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="YdX-ke-OH0">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="YdX-ke-OH0">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -28,17 +28,17 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ETR-m5-mnf">
-                                            <rect key="frame" x="2" y="2" width="196" height="196"/>
+                                            <rect key="frame" x="0.0" y="1" width="196" height="196"/>
                                         </imageView>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="ETR-m5-mnf" firstAttribute="top" secondItem="BKv-2G-vlK" secondAttribute="topMargin" constant="-6" id="2cA-oY-V7A"/>
-                                    <constraint firstItem="ETR-m5-mnf" firstAttribute="leading" secondItem="BKv-2G-vlK" secondAttribute="leadingMargin" constant="-6" id="98m-xn-mU8"/>
-                                    <constraint firstItem="ETR-m5-mnf" firstAttribute="centerX" secondItem="BKv-2G-vlK" secondAttribute="centerX" constant="1" id="ltP-ln-8VE"/>
-                                    <constraint firstItem="ETR-m5-mnf" firstAttribute="centerY" secondItem="BKv-2G-vlK" secondAttribute="centerY" constant="1" id="uJk-gk-PVH"/>
+                                    <constraint firstItem="ETR-m5-mnf" firstAttribute="centerY" secondItem="BKv-2G-vlK" secondAttribute="centerY" id="QhC-0t-a42"/>
+                                    <constraint firstItem="ETR-m5-mnf" firstAttribute="leading" secondItem="BKv-2G-vlK" secondAttribute="leading" id="iGq-HL-sD3"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="ETR-m5-mnf" secondAttribute="trailing" constant="-6" id="ilC-H2-r72"/>
+                                    <constraint firstItem="ETR-m5-mnf" firstAttribute="top" secondItem="BKv-2G-vlK" secondAttribute="topMargin" constant="-7" id="iud-a2-Qt1"/>
                                 </constraints>
                                 <size key="customSize" width="198" height="198"/>
                                 <connections>
@@ -122,7 +122,7 @@
                                 </view>
                                 <connections>
                                     <outlet property="imgView" destination="lkg-Bh-hO9" id="CJq-k3-AfF"/>
-                                    <segue destination="NkA-f7-K4E" kind="show" identifier="FoodSegue" id="Qod-Hb-tYH"/>
+                                    <segue destination="GGS-2B-jGX" kind="show" id="Aa5-k8-Zpb"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -182,55 +182,53 @@
             <point key="canvasLocation" x="1858" y="21"/>
         </scene>
         <!--Food View Controller-->
-        <scene sceneID="dX1-Nj-vaX">
+        <scene sceneID="k9g-g2-aMY">
             <objects>
-                <collectionViewController id="NkA-f7-K4E" customClass="FoodViewController" customModule="Elisas_App" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="Iw2-4I-qlO">
+                <collectionViewController id="GGS-2B-jGX" customClass="FoodViewController" customModule="Elisas_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="oVm-Ue-osq">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="QVe-cm-f3k">
-                            <size key="itemSize" width="200" height="200"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="zFm-vx-zLe">
+                            <size key="itemSize" width="199" height="202"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ItemCell" id="JLd-pS-ZSI" customClass="ItemCell" customModule="Elisas_App" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ItemCell" id="qYF-zT-CYW" customClass="ItemCell" customModule="Elisas_App" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="199" height="202"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qkQ-JN-Fre">
-                                            <rect key="frame" x="2" y="2" width="196" height="196"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="house" translatesAutoresizingMaskIntoConstraints="NO" id="36N-Ly-JyO">
+                                            <rect key="frame" x="0.0" y="0.0" width="199" height="202"/>
                                         </imageView>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
-                                <color key="backgroundColor" red="0.25098040699958801" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="qkQ-JN-Fre" firstAttribute="leading" secondItem="JLd-pS-ZSI" secondAttribute="leading" constant="2" id="8Ai-MD-EqZ"/>
-                                    <constraint firstAttribute="trailing" secondItem="qkQ-JN-Fre" secondAttribute="trailing" constant="2" id="MFo-dQ-snQ"/>
-                                    <constraint firstItem="qkQ-JN-Fre" firstAttribute="top" secondItem="JLd-pS-ZSI" secondAttribute="top" constant="2" id="pvc-D9-Dd1"/>
-                                    <constraint firstAttribute="bottom" secondItem="qkQ-JN-Fre" secondAttribute="bottom" constant="2" id="qEY-ni-fLk"/>
+                                    <constraint firstAttribute="bottom" secondItem="36N-Ly-JyO" secondAttribute="bottom" id="7cP-ou-6nC"/>
+                                    <constraint firstAttribute="trailing" secondItem="36N-Ly-JyO" secondAttribute="trailing" id="Iug-Rt-pxb"/>
+                                    <constraint firstItem="36N-Ly-JyO" firstAttribute="top" secondItem="qYF-zT-CYW" secondAttribute="top" id="N7N-ED-W6n"/>
+                                    <constraint firstItem="36N-Ly-JyO" firstAttribute="leading" secondItem="qYF-zT-CYW" secondAttribute="leading" id="ViX-Xp-XjP"/>
                                 </constraints>
-                                <size key="customSize" width="200" height="200"/>
                                 <connections>
-                                    <outlet property="imgView" destination="qkQ-JN-Fre" id="WS7-vu-Ynv"/>
+                                    <outlet property="imgView" destination="36N-Ly-JyO" id="hCj-5J-gbM"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>
-                            <outlet property="dataSource" destination="NkA-f7-K4E" id="bVk-7c-BH1"/>
-                            <outlet property="delegate" destination="NkA-f7-K4E" id="9b3-7c-jvb"/>
+                            <outlet property="dataSource" destination="GGS-2B-jGX" id="2Oq-a3-me3"/>
+                            <outlet property="delegate" destination="GGS-2B-jGX" id="79f-dZ-g3t"/>
                         </connections>
                     </collectionView>
                 </collectionViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eoH-JW-czg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YNw-po-Y0P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1858" y="739"/>
+            <point key="canvasLocation" x="1858" y="687"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="zzZ-21-ZAJ">
@@ -251,4 +249,7 @@
             <point key="canvasLocation" x="394" y="267"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="house" width="275" height="183"/>
+    </resources>
 </document>
