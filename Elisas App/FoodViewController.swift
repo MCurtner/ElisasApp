@@ -12,14 +12,14 @@ class FoodViewController: UICollectionViewController {
     
     var imagesArray = [String]()
     
-
     required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
+        
+        //Load array with images under set folder.
         var load = LoadArray()
         imagesArray = load.loadImageIntoArray(folder: "food images")
     }
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,7 +29,7 @@ class FoodViewController: UICollectionViewController {
         let width = CGRectGetWidth(collectionView!.frame) / 3
         let layout = collectionViewLayout as! UICollectionViewFlowLayout
         
-        layout.itemSize = CGSize(width: width, height: width)
+        layout.itemSize = CGSize(width: width, height: width + 25)
     }
     
     
@@ -42,13 +42,13 @@ class FoodViewController: UICollectionViewController {
         return imagesArray.count
     }
     
-    
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> ItemCell {
         
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("ItemCell", forIndexPath: indexPath) as! ItemCell
         
         var imgName = imagesArray[indexPath.row]
         cell.imgView.image = UIImage(named: imgName)
+        cell.imageLabel.text = imgName.capitalizedString
         
         return cell
     }
