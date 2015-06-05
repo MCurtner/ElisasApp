@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		343BE8BC1B20BD6D00897221 /* LoadArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BE8BB1B20BD6D00897221 /* LoadArray.swift */; };
+		34A6D8C11B218E2A00ED7AAA /* food in Resources */ = {isa = PBXBuildFile; fileRef = 34A6D8C01B218E2A00ED7AAA /* food */; };
+		34A6D8C31B21903E00ED7AAA /* clothing in Resources */ = {isa = PBXBuildFile; fileRef = 34A6D8C21B21903E00ED7AAA /* clothing */; };
 		BA3D07431B1F4D53006FCAFF /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3D07421B1F4D53006FCAFF /* FoodViewController.swift */; };
 		BAA58A761B1E0A15005B6723 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA58A751B1E0A15005B6723 /* AppDelegate.swift */; };
 		BAA58A7B1B1E0A15005B6723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAA58A791B1E0A15005B6723 /* Main.storyboard */; };
@@ -31,6 +33,8 @@
 
 /* Begin PBXFileReference section */
 		343BE8BB1B20BD6D00897221 /* LoadArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadArray.swift; sourceTree = "<group>"; };
+		34A6D8C01B218E2A00ED7AAA /* food */ = {isa = PBXFileReference; lastKnownFileType = folder; path = food; sourceTree = "<group>"; };
+		34A6D8C21B21903E00ED7AAA /* clothing */ = {isa = PBXFileReference; lastKnownFileType = folder; path = clothing; sourceTree = "<group>"; };
 		BA3D07421B1F4D53006FCAFF /* FoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 		BAA58A701B1E0A15005B6723 /* Elisas App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Elisas App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA58A741B1E0A15005B6723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,6 +89,8 @@
 		BAA58A721B1E0A15005B6723 /* Elisas App */ = {
 			isa = PBXGroup;
 			children = (
+				34A6D8C21B21903E00ED7AAA /* clothing */,
+				34A6D8C01B218E2A00ED7AAA /* food */,
 				BAA58A751B1E0A15005B6723 /* AppDelegate.swift */,
 				BAA58A981B1E0E23005B6723 /* MasterViewController.swift */,
 				BAA58A9A1B1E1794005B6723 /* ItemCell.swift */,
@@ -205,8 +211,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34A6D8C11B218E2A00ED7AAA /* food in Resources */,
 				BAA58A7B1B1E0A15005B6723 /* Main.storyboard in Resources */,
 				BAA58A801B1E0A15005B6723 /* LaunchScreen.xib in Resources */,
+				34A6D8C31B21903E00ED7AAA /* clothing in Resources */,
 				BAA58A7D1B1E0A15005B6723 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

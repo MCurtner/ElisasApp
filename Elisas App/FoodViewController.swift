@@ -7,18 +7,25 @@
 //
 
 import UIKit
+import AVFoundation
 
 class FoodViewController: UICollectionViewController {
     
     var imagesArray = [String]()
+    let synthesizer = AVSpeechSynthesizer()
     
     required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
-        
         //Load array with images under set folder.
-        var load = LoadArray()
-        imagesArray = load.loadImageIntoArray(folder: "food images")
+        
+        println(imagesArray.count)
+        if imagesArray.count == 0 {
+            var load = LoadArray()
+            imagesArray = load.loadImageIntoArray(folder: "food")
+            
+            println(imagesArray)
+        }
     }
     
     override func viewDidLoad() {
@@ -52,5 +59,15 @@ class FoodViewController: UICollectionViewController {
         
         return cell
     }
+    
+    override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        let string = imagesArray[indexPath.row]
+        let utterance = AVSpeechUtterance(string: string)
+        utterance.voice = AVSpeechSynthesisVoice(language: "cs-CZ")
+        utterance.rate = 0.001
+        
+        synthesizer.speakUtterance(utterance)
+    }
+    
 
 }

@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>EB60CB5B-95A9-439F-BBFC-8B66B2A7682D</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Elisas App</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>668A75182FC02356C4151591B73D12A9EBD9CEAC</key>
 		<string>https://github.com/MCurtner/ElisasApp.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Elisas App.xcodeproj</string>
+	<string>Elisas App.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>668A75182FC02356C4151591B73D12A9EBD9CEAC</key>
