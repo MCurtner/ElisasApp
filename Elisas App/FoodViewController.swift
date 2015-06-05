@@ -26,6 +26,7 @@ class FoodViewController: UICollectionViewController {
             
             println(imagesArray)
         }
+        
     }
     
     override func viewDidLoad() {
