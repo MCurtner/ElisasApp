@@ -38,6 +38,8 @@ class LoadArray {
         
         println(theArray)
         
-        return theArray
+        return sorted(theArray, <)
     }
 }
+
+
